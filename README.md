@@ -11,8 +11,6 @@ $ npm install fb-node
 
 ## Run test
 
-!NOTICE
-
 Don't forget to assign api.token with a correct value in ```test/api.js``` . 
 
 ```bash
@@ -64,7 +62,7 @@ api.post('/me/feed', { message: 'Hello, world!' }).then(function (data) {
 });
 ```
 
-For URLs and params, go to [Graph API Reference](https://developers.facebook.com/docs/graph-api/reference/v2.1)
+To find URLs and params, go to [Graph API Reference](https://developers.facebook.com/docs/graph-api/reference/v2.1)
 
 #License
 The MIT License (MIT)

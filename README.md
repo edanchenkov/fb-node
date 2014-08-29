@@ -55,7 +55,7 @@ api.get('/me').then(function (data) {
   console.dir('Done with the request')
 });
 
-api.post('/me', { message: 'Hello, world!' }).then(function (data) {
+api.post('/me/feed', { message: 'Hello, world!' }).then(function (data) {
   console.dir(data.json);
 }).catch(function(e){
   console.dir(e)
@@ -63,6 +63,8 @@ api.post('/me', { message: 'Hello, world!' }).then(function (data) {
   console.dir('Done with the request')
 });
 ```
+
+For URLs and params, go to [Graph API Reference](https://developers.facebook.com/docs/graph-api/reference/v2.1)
 
 #License
 The MIT License (MIT)

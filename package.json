@@ -1,6 +1,6 @@
 {
   "name": "fb-node",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Client for Facebook Graph API v2.* implement with promises.",
   "main": "index.js",
   "scripts": {

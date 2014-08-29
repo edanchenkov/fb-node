@@ -9,6 +9,12 @@ Client for Facebook Graph API v2.* implement with promises.
 $ npm install fb-node
 ```
 
+## Run test
+
+```bash
+$ npm test
+```
+
 ## Usage
 
 ```javascript

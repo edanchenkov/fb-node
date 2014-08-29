@@ -4,7 +4,7 @@ var should = require('should');
 var api = require('./../lib/api');
 
 var endpoint = 'https://graph.facebook.com';
-var token = 'CAACEdEose0cBAK4IzFurnALAoy21gsp5XimvWtQvnYJWhxFbJayMjrrYOUm0xmaZALbd7oZBVVhFeddYaFQiG2G93YTlZBJCnPUdsVPziKZAtj9oZBdonDyb89yv7EZCAoZCTZCAPkDgbrNq9Y1eeSfsY1zsHCAH9kKo2QwIO44buciMeJIJJl2pBc9JNPrKypATx9ClQ9pXyz1IEejx7Hi26zUNowaG4ZBkZD';
+var token = 'ENTER VALID TOKEN';
 
 var post = null;
 

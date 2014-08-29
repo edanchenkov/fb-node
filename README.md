@@ -11,6 +11,10 @@ $ npm install fb-node
 
 ## Run test
 
+!NOTICE
+
+Don't forget to assign api.token with a correct value in ```test/api.js``` . 
+
 ```bash
 $ npm test
 ```

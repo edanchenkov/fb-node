@@ -1,0 +1,31 @@
+{
+  "name": "fb-node",
+  "version": "0.0.2",
+  "description": "Client for Facebook Graph API v2.* implement with promises.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make"
+  },
+  "keywords": [
+    "throttled",
+    "request",
+    "API",
+    "graph",
+    "Facebook"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edanchenkov/ThrottledFB-API.git"
+  },
+  "dependencies": {
+    "request": "~2.40.0",
+    "bluebird": "~2.3.2",
+    "limiter": "~1.0.5"
+  },
+  "devDependencies": {
+    "should": "~4.0.4",
+    "mocha": "~1.21.4"
+  },
+  "author": "Egor Danchenkov <icepnyx@gmail.com>",
+  "license": "MIT"
+}

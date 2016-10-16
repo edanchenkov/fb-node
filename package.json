@@ -19,8 +19,7 @@
   },
   "dependencies": {
     "request": "~2.40.0",
-    "bluebird": "~2.3.2",
-    "limiter": "~1.0.5"
+    "bluebird": "~2.3.2"
   },
   "devDependencies": {
     "should": "~4.0.4",

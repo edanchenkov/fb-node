@@ -8,7 +8,7 @@ var token = 'ENTER VALID TOKEN';
 
 var post = null;
 
-describe('Throttled library for Facebook Graph API v2.*', function(){
+describe('Library for Facebook Graph API v2.*', function(){
 
   it('should set api token', function(done){
     api.token = 'this token';

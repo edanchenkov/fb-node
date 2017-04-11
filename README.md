@@ -22,8 +22,7 @@ $ npm test
 ```javascript
 var api = require('fb-node');
 
-// Set endpoint and token
-api.endpoint = 'https://graph.facebook.com';
+// Set token
 api.token = 'Your token';
 ```
 

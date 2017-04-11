@@ -64,7 +64,9 @@ api.post('/me/feed', { message: 'Hello, world!' }).then(function (data) {
 
 To find URLs and params, go to [Graph API Reference](https://developers.facebook.com/docs/graph-api/reference/v2.1)
 
-#License
+### License
+
+```
 The MIT License (MIT)
 
 Copyright (c) 2014 Egor Danchenkov
@@ -86,3 +88,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```

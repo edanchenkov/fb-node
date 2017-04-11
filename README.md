@@ -46,19 +46,19 @@ All of them returns data that consits from 2 parts:
 
 ```javascript
 api.get('/me').then(function (data) {
-  console.dir(data.json);
+  console.log(data.json);
 }).catch(function(e){
-  console.dir(e)
+  console.log(e)
 }).finally(function(){
-  console.dir('Done with the request')
+  console.log('Done with the request')
 });
 
 api.post('/me/feed', { message: 'Hello, world!' }).then(function (data) {
-  console.dir(data.json);
+  console.log(data.json);
 }).catch(function(e){
-  console.dir(e)
+  console.log(e)
 }).finally(function(){
-  console.dir('Done with the request')
+  console.log('Done with the request')
 });
 ```
 

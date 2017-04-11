@@ -54,15 +54,6 @@ api.post('/me/feed', { message: 'Hello, world!' }).then(function (data) {
 
 To find URLs and params, go to [Graph API Reference](https://developers.facebook.com/docs/graph-api/reference/v2.1)
 
-
-## Run test
-
-Don't forget to assign api.token with a correct value in ```test/api.js``` . 
-
-```bash
-npm test
-```
-
 ### License
 
 ```

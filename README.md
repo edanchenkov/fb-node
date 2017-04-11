@@ -1,20 +1,12 @@
 fb-node
 ===============
 
-Client for Facebook Graph API v2.* implement with promises.
+Slim and simple client for Facebook Graph API v2.* implemented with promises
 
 ## Install
 
 ```bash
-$ npm install fb-node
-```
-
-## Run test
-
-Don't forget to assign api.token with a correct value in ```test/api.js``` . 
-
-```bash
-$ npm test
+[sudo] npm install fb-node
 ```
 
 ## Usage
@@ -25,7 +17,6 @@ var api = require('fb-node');
 // Set token
 api.token = 'Your token';
 ```
-
 
 ### Methods
 
@@ -38,8 +29,8 @@ api.
 
 All of them returns data that consits from 2 parts: 
 
-- json /payload/
-- response 
+- json data
+- response object
 
 #### Example
 
@@ -62,6 +53,15 @@ api.post('/me/feed', { message: 'Hello, world!' }).then(function (data) {
 ```
 
 To find URLs and params, go to [Graph API Reference](https://developers.facebook.com/docs/graph-api/reference/v2.1)
+
+
+## Run test
+
+Don't forget to assign api.token with a correct value in ```test/api.js``` . 
+
+```bash
+npm test
+```
 
 ### License
 
